@@ -71,7 +71,7 @@ main {
         margin: 0rem 8rem 1rem 0rem;
         display: flex;
         content: "";
-        width: 15.3rem;
+        width: 15.2rem;
         border-bottom: 2px solid #ffffff;
       }
       &:after {
@@ -165,7 +165,7 @@ main {
     }
   }
   & .fifth-box {
-    padding: 5rem;
+    padding: 5rem 5rem 2rem 5rem;
     & h2 {
       display: flex;
       justify-content: center;
@@ -202,5 +202,16 @@ main {
         }
       }
     }
+  }
+}
+
+footer {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & p {
+    margin-left: 2rem;
+    color: #3c3c3c;
   }
 }

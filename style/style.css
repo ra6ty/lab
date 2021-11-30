@@ -119,7 +119,7 @@ main .second-box h2:before {
   display: -ms-flexbox;
   display: flex;
   content: "";
-  width: 15.3rem;
+  width: 15.2rem;
   border-bottom: 2px solid #ffffff;
 }
 
@@ -269,7 +269,7 @@ main .four-box--6 {
 }
 
 main .fifth-box {
-  padding: 5rem;
+  padding: 5rem 5rem 2rem 5rem;
 }
 
 main .fifth-box h2 {
@@ -328,5 +328,23 @@ main .fifth-box--container a {
 
 main .fifth-box--container a:hover {
   background-color: #a19999;
+}
+
+footer {
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  margin-left: 2rem;
+  color: #3c3c3c;
 }
 /*# sourceMappingURL=style.css.map */
