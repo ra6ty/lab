@@ -1,0 +1,47 @@
+  @mixin backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @mixin text {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #3c3c3c;
+    text-align: center;
+  }
+  
+  @mixin h1 {
+    font-size: 54px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  @mixin h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3c3c3c;
+  }
+  
+  @mixin h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3c3c3c;
+  }
+  
+  @mixin text-header {
+    font-size: 15px;
+    line-height: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
