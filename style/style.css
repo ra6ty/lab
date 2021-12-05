@@ -50,11 +50,11 @@ main {
   width: 100%;
 }
 
-main .first-box {
+main .first_box {
   padding: 5rem;
 }
 
-main .first-box h2 {
+main .first_box h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +72,7 @@ main .first-box h2 {
   max-width: 420px;
 }
 
-main .first-box--container {
+main .first_box--container {
   border: 2px solid #3c3c3c;
   text-align: center;
   max-width: 900px;
@@ -80,7 +80,7 @@ main .first-box--container {
   padding: 4rem 8rem 2rem 8rem;
 }
 
-main .first-box--container p {
+main .first_box--container p {
   margin-bottom: 2rem;
   font-size: 16px;
   line-height: 24px;
@@ -88,7 +88,7 @@ main .first-box--container p {
   color: #3c3c3c;
 }
 
-main .second-box {
+main .second_box {
   padding: 5rem;
   background-image: url(../images/2.png);
   background-size: cover;
@@ -96,7 +96,7 @@ main .second-box {
   background-repeat: no-repeat;
 }
 
-main .second-box h2 {
+main .second_box h2 {
   font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
@@ -112,7 +112,7 @@ main .second-box h2 {
   top: 1.1rem;
 }
 
-main .second-box h2:before {
+main .second_box h2:before {
   margin: 0rem 8rem 1rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +122,7 @@ main .second-box h2:before {
   border-bottom: 2px solid #ffffff;
 }
 
-main .second-box h2:after {
+main .second_box h2:after {
   margin: 0rem 0rem 1rem 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +132,7 @@ main .second-box h2:after {
   border-bottom: 2px solid #ffffff;
 }
 
-main .second-box--container {
+main .second_box--container {
   width: 80rem;
   border: 2px solid #ffffff;
   border-top: unset;
@@ -142,7 +142,7 @@ main .second-box--container {
   padding: 4rem 8rem 2rem 8rem;
 }
 
-main .second-box--container p {
+main .second_box--container p {
   font-size: 14px;
   line-height: 25px;
   font-weight: 300;
@@ -151,11 +151,11 @@ main .second-box--container p {
   color: #ffffff;
 }
 
-main .third-box {
+main .third_box {
   padding: 5rem;
 }
 
-main .third-box h2 {
+main .third_box h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +173,7 @@ main .third-box h2 {
   max-width: 420px;
 }
 
-main .third-box--container {
+main .third_box--container {
   border: 2px solid #3c3c3c;
   text-align: center;
   max-width: 900px;
@@ -181,7 +181,7 @@ main .third-box--container {
   padding: 8rem 8rem 6rem 8rem;
 }
 
-main .third-box--container h3 {
+main .third_box--container h3 {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -190,7 +190,7 @@ main .third-box--container h3 {
   margin: 2rem;
 }
 
-main .third-box--container p {
+main .third_box--container p {
   font-size: 14px;
   line-height: 25px;
   font-weight: 300;
@@ -199,11 +199,11 @@ main .third-box--container p {
   margin-bottom: 5rem;
 }
 
-main .third-box--container p:last-child {
+main .third_box--container p:last-child {
   margin-bottom: 0rem;
 }
 
-main .four-box {
+main .four_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,7 +211,7 @@ main .four-box {
       flex-wrap: wrap;
 }
 
-main .four-box div {
+main .four_box div {
   width: 29.2%;
   padding: 6rem 2rem 2rem 2rem;
   margin: 0rem 0.25rem 0.5rem 0.25rem;
@@ -222,14 +222,14 @@ main .four-box div {
   color: #ffffff;
 }
 
-main .four-box--1 {
+main .four_box--1 {
   background-image: url(../images/3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-main .four-box--2 {
+main .four_box--2 {
   background-image: url(../images/4.png);
   background-size: cover;
   background-position: center;
@@ -237,21 +237,21 @@ main .four-box--2 {
   width: 40% !important;
 }
 
-main .four-box--3 {
+main .four_box--3 {
   background-image: url(../images/5.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-main .four-box--4 {
+main .four_box--4 {
   background-image: url(../images/6.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-main .four-box--5 {
+main .four_box--5 {
   background-image: url(../images/7.png);
   background-size: cover;
   background-position: center;
@@ -259,18 +259,18 @@ main .four-box--5 {
   width: 40% !important;
 }
 
-main .four-box--6 {
+main .four_box--6 {
   background-image: url(../images/8.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-main .fifth-box {
+main .fifth_box {
   padding: 5rem 5rem 2rem 5rem;
 }
 
-main .fifth-box h2 {
+main .fifth_box h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,7 +288,7 @@ main .fifth-box h2 {
   max-width: 420px;
 }
 
-main .fifth-box--container {
+main .fifth_box--container {
   border: 2px solid #3c3c3c;
   text-align: center;
   max-width: 850px;
@@ -296,7 +296,7 @@ main .fifth-box--container {
   padding: 5rem 8rem 1rem 8rem;
 }
 
-main .fifth-box--container p {
+main .fifth_box--container p {
   font-size: 14px;
   line-height: 25px;
   font-weight: 300;
@@ -305,7 +305,7 @@ main .fifth-box--container p {
   font-size: 16px;
 }
 
-main .fifth-box--container a {
+main .fifth_box--container a {
   font-size: 16px;
   text-transform: uppercase;
   display: -webkit-box;
@@ -324,12 +324,12 @@ main .fifth-box--container a {
   margin: 2rem auto;
 }
 
-main .fifth-box--container a:hover {
+main .fifth_box--container a:hover {
   background-color: #a19999;
 }
 
 footer {
-  padding: 4rem;
+  margin: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
