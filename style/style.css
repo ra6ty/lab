@@ -3,7 +3,12 @@
   font-family: "Lato", sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 .box {
+  width: 100%;
   background-image: url(../images/1.png);
   background-size: cover;
   background-position: center;
@@ -118,7 +123,7 @@ main .second_box h2:before {
   display: -ms-flexbox;
   display: flex;
   content: "";
-  width: 15.2rem;
+  max-width: 15.2rem;
   border-bottom: 2px solid #ffffff;
 }
 
@@ -128,12 +133,12 @@ main .second_box h2:after {
   display: -ms-flexbox;
   display: flex;
   content: "";
-  width: 15.3rem;
+  max-width: 15.3rem;
   border-bottom: 2px solid #ffffff;
 }
 
 main .second_box--container {
-  width: 80rem;
+  width: 80%;
   border: 2px solid #ffffff;
   border-top: unset;
   text-align: center;
@@ -187,7 +192,7 @@ main .third_box--container h3 {
   text-transform: uppercase;
   color: #3c3c3c;
   letter-spacing: 0.16em;
-  margin: 2rem;
+  margin: 2rem auto;
 }
 
 main .third_box--container p {
@@ -209,6 +214,7 @@ main .four_box {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 1rem;
 }
 
 main .four_box div {
@@ -234,7 +240,7 @@ main .four_box--2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 40% !important;
+  width: 39% !important;
 }
 
 main .four_box--3 {
@@ -256,7 +262,7 @@ main .four_box--5 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 40% !important;
+  width: 39% !important;
 }
 
 main .four_box--6 {
@@ -329,7 +335,7 @@ main .fifth_box--container a:hover {
 }
 
 footer {
-  margin: 4rem;
+  padding: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,5 +350,93 @@ footer {
 footer p {
   margin-left: 2rem;
   color: #3c3c3c;
+}
+
+@media (max-width: 479px) {
+  header {
+    padding: 1rem !important;
+  }
+  header h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 200px;
+  }
+  main section {
+    padding: 1rem !important;
+  }
+  main section h2 {
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+  }
+  main section h2:before {
+    display: none;
+  }
+  main section h2:after {
+    display: none;
+  }
+  main section div {
+    padding: 2rem 1rem !important;
+  }
+  main section div h3 {
+    margin: 0.3rem auto !important;
+  }
+  main .four_box div {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  main .four_box--2 {
+    width: 100% !important;
+  }
+  main .four_box--5 {
+    width: 100% !important;
+  }
+  footer {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1100px) {
+  main section {
+    padding: 1rem !important;
+  }
+  main section h2 {
+    min-width: 250px;
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+    margin: 0 auto;
+  }
+  main section h2:before {
+    display: none;
+  }
+  main section h2:after {
+    display: none;
+  }
+  main section div {
+    padding: 2rem 1rem !important;
+  }
+  main section div h3 {
+    margin: 0.3rem auto !important;
+  }
+  main .four_box div {
+    width: 48%;
+  }
+  main .four_box--2 {
+    width: 48% !important;
+  }
+  main .four_box--5 {
+    width: 48% !important;
+  }
+}
+
+footer h2 {
+  min-width: 250px;
+  max-width: -webkit-fit-content !important;
+  max-width: -moz-fit-content !important;
+  max-width: fit-content !important;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
